@@ -53,12 +53,12 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton( '💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@sastamarvel01?si=KiYYZ5mByFO-O_fl')
+            InlineKeyboardButton( '⌑ ᴍᴀɪɴ ⌑', url='https://t.me/ongoing_haniflix')
             ],[
-            InlineKeyboardButton( '💝 movies ', url='https://t.me/+ccx-5xVHyro3ZjNl')
+            InlineKeyboardButton( '⌑ ᴀɴɪᴍᴇ ⌑', url='https://t.me/animesilvervoid')
             ],[
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/+ccx-5xVHyro3ZjNl'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/aapna_Movies')
+            InlineKeyboardButton('⌑ ʜᴀɴɪꜰʟɪx ⌑', url='https://t.me/haniflix_verse'),
+            InlineKeyboardButton('⌑ ᴊᴀᴠꜰʟɪx ⌑', url='https://t.me/+_klqs93gEstkYzk1')
             ],[
             InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')
             ],[
@@ -112,7 +112,7 @@ async def start(client, message):
             if f_caption is None:
                 f_caption = f"{title}"
             try:
-                h = await message.reply_text(f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>{AUTO_DELETE} minutes</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there </b>")
+                h = await message.reply_text(f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis File/Video will be deleted in <b><u>{AUTO_DELETE} minutes</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there </b>")
                 quote=True,
 
                 k = await client.send_cached_media(
