@@ -22,29 +22,29 @@ def is_enabled(value, default):
 
       
 # Owner Information
-API_ID = int(environ.get("API_ID", "29640476"))
-API_HASH = environ.get("API_HASH", "824d5b93ac8c8fddcf4088a67ecd5222")
-ADMINS = int(environ.get("ADMINS", "6138367360"))
+API_ID = int(environ.get("API_ID", "27526328"))
+API_HASH = environ.get("API_HASH", "db231e73712db0b6397f624a75a760f8")
+ADMINS = int(environ.get("ADMINS", "1582227872 6095034047"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://infotechhero890:7c2qvHdJUYqTOaMa@cluster0.veojhex.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-CDB_NAME = environ.get("CDB_NAME", "clonevjbotz")
-DB_URI = environ.get("DB_URI", "mongodb+srv://thahero196:lP9Fb6aKL7T0y47U@cluster0.whs2bkj.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = environ.get("DB_NAME", "vjbotz")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://accha:phir@cluster0.dwgvv5h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+CDB_NAME = environ.get("CDB_NAME", "Cluster0")
+DB_URI = environ.get("DB_URI", "mongodb+srv://accha:phir@cluster0.dm1k9xf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = environ.get("DB_NAME", "Cluster0")
 
 
 # Bot Information
-BOT_TOKEN = environ.get("BOT_TOKEN", "7097361555:AAHOhbFWGflLqJQcY5vWleTU-iXvfai_rXs")
-BOT_USERNAME = environ.get("BOT_USERNAME", "Anime_file_store1_bot") # your bot username without @
-PICS = (environ.get('PICS', 'https://te.legra.ph/file/66604e5911df5a0c43ffa.jpg https://graph.org/file/f5a26ac21b060d5787ea3.jpg https://graph.org/file/30539d8f1fc92423d6a19.jpg https://graph.org/file/701ff72fb43d85e073f03.jpg')).split() # Bot Start Picture
+BOT_TOKEN = environ.get("BOT_TOKEN", "7270620723:AAH80-ii-aQTl2xTUG0N4VM5G5iyndCj5Ok")
+BOT_USERNAME = environ.get("BOT_USERNAME", "Huofilebot") # your bot username without @
+PICS = (environ.get('PICS', 'https://graph.org/file/32549e9fa6f9e31a0c034.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
 AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002005121747"))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002067183105')).split()]
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002191406958"))
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002166040991')).split()]
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -66,7 +66,7 @@ class Var(object):
     name = str(getenv('name', 'filetolinkvjbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002124914386'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002191406958'))
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
